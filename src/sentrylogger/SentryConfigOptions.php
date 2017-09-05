@@ -5,6 +5,10 @@ final class SentryConfigOptions extends PhabricatorApplicationConfigOptions {
   public function getName() {
     return pht('Sentry');
   }
+  
+  public function getGroup() {
+    return pht('apps');
+  }
 
   public function getDescription() {
     return pht('Configure Sentry builds.');
